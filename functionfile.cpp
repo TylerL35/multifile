@@ -1,8 +1,8 @@
 #include <iostream>
+#include "functionfile.hpp"
 
-using namespace std;
-
-void functio(string s)
+void functio(std::string s)
 {
-    cout << s;
-}
+    std::cout << s;
+}   
+
